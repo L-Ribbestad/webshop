@@ -1,0 +1,91 @@
+.contact-section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+.contact-heading{
+    border: 2px solid; 
+    border-style: none none solid none; 
+    width: 1255px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; 
+} 
+.contact-heading h2{
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+}
+.contact-info{
+    display: flex;
+    height: 426px;
+    width: 1255px;
+    margin-top: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+.contact-text{
+    display: flex;
+    border: 1px solid; 
+    width: 622.5px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+.contact-image{
+    display: flex; 
+}
+.contact-image img{ 
+    width: 622.5px;
+}
+}
+.contact-section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+.question-heading{
+    border: 2px solid; 
+    border-style: none none solid none; 
+    width: 1255px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; 
+}
+.question-heading h2{
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif; 
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.email-div label{
+    font-size: 23px;
+    font-family: 'Varela Round', sans-serif;
+}
+.email-div input{
+    font-size: 20px;
+}
+.email-div select{
+    font-size: 20px; 
+    font-family: 'Varela Round', sans-serif;
+}
+.textarea-div textarea{
+    font-size: 20px;  
+    font-family: 'Varela Round', sans-serif;
+}
+.submit-div button{
+    height: 40px;
+    width: 100px; 
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+}

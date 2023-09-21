@@ -1,0 +1,63 @@
+header{
+    min-height: 50px;
+}
+.navbar{ 
+    display: flex;
+    background-color: #3a6b34; 
+    flex-direction: column;
+    height: 150px;
+
+.upper-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    align-items: center;
+}
+.logo{
+    display: flex;  
+    justify-content: space-between;
+    margin-left: 160px;
+    align-items: center;
+}
+.logo img{
+    height: 70px;
+    border-radius: 50%;
+}
+.logo h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    color: #e9dac6;
+}
+.log-in{
+    margin-right: 160px; 
+}
+.log-in i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #e9dac6;
+}
+.log-in a{
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 3px;
+    font-size: 25px;
+    padding: 2px;
+    color: #e9dac6;
+}
+.navbar-links{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    height: 75px;
+    align-items: center;
+}
+.navbar-links a{ 
+    font-family: 'Tajawal', sans-serif;
+    color: #e6e3dc;
+    font-size: 30px;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }  
+} 
+}

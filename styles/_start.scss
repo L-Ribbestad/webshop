@@ -1,0 +1,102 @@
+.start-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .cta-section{
+        display: flex;
+        width: 1255px;
+        height: 500px;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .cta-article{
+        width: 627.5px;
+        border: 2px solid;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-radius: 5px;
+    }
+    .cta-article h2{
+        font-family: 'Tajawal', sans-serif;
+        font-size: 40px;
+    }
+    .cta-article p{
+        font-size: 25px;
+        font-family: 'Varela Round', sans-serif; 
+    }
+    .cta-article a{
+        text-decoration: none;
+        color: black;
+        border: 2px solid;
+        font-size: 25px;
+        padding: 4px;
+        border-radius: 5px;  
+        &:hover{
+            background-color: lightgray;
+        }
+    }
+
+    .start-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 622.5px;
+        
+    }
+    .start-img img{
+        height: 500px;
+        width: 622.5px;
+        border-radius: 5px;
+    }
+    .start-heading{
+        border: 2px solid; 
+        border-style: none none solid none; 
+        width: 1255px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    }
+    .start-heading h3{
+        font-size: 30px;
+        font-family: 'Tajawal', sans-serif;
+    }
+    .popular-div{
+    display: flex;
+    height: 411.6px;
+    width: 1255px;
+    margin-top: 10px;
+    justify-content: center;
+    gap: 10px;
+    }
+    .popular-article{
+        display: flex;
+        border: 1px solid; 
+        height: 411.6px;
+        width: 411.6px;
+        align-items: center;
+        flex-direction: column; 
+        text-align: center;
+        background-color: white;
+    }
+    .popular-article img{
+        height: 350px;
+        width: 350px;
+        margin-top: 20px;
+    }
+    .popular-article a{
+    text-decoration: none;
+    color:black;
+    border: 2px solid;
+    font-size: 20px;
+    width: 80px;
+    padding: 2px;
+    margin-top: 5px;
+    border-radius: 4px; 
+    &:hover{    
+        background-color: lightgray; 
+    }
+    }
+}

@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e3dc;
+}
+main{
+    flex: 1;
+}
+
+@import "./header"; 
+@import "./footer";
+@import "./recensioner";
+@import "./omoss";
+@import "./kontakt";
+@import "./utrustning";
+@import "./start";
+
+
+
+
+
+
+
